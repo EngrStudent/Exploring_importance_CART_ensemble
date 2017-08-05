@@ -168,3 +168,5 @@ Some observations can be made at this point about "cross-overs".
 - When the upper control limit (UCL) of the varying importance variable starts being larger than the UCL of the zero-value variable, then I call it "initial emergence".  I think this is the first detection of non-zero importance. If I was trying to squeeze blood from a stone, I would look at the upper confidence levels, the right tails, to make a comparison.  
 - If the mean importance for a variable value term was larger than the UCL for zero value term, what I call "clear emergence", then the mean importance stops leading to false negative dispositions.  
 - If Lower confidence limit (LCL) of variable value term is greater than the UCL of the zero value term, then it is completely emergede from the shadow of the zero value term.
+
+- When the UCL of the varying value term is equal to the LCL of the 100% value term, then we start entering a region of ambiquous max-value.  

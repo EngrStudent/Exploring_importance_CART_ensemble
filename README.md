@@ -13,13 +13,14 @@ Questions:
 - Is there a threshold of importance below which a contributing variable is indistinguishable from random?
 - How does this work for different "breeds" of importance like Z vs. Gini?
 - When I use a library like ["Boruta"](https://cran.r-project.org/web/packages/Boruta/Boruta.pdf), [h2o](https://cran.r-project.org/web/packages/h2o/h2o.pdf), or the canonical [randomForest](https://cran.r-project.org/web/packages/randomForest/randomForest.pdf) what does the output really mean?
+- There are typically 3 versions of importance: raw, raw over max, and raw over sum.  Is there one of these that is more useful than others?  
 
 How to start? (method)
 ----------------------
 
 #### First thoughts
 
--   Lots of folks like additive noise. They assume it is additive.
+-   Lots of folks like additive noise. They assume it is additive.  Let's look at additive noise.
 -   Random number generators are pretty good, and stochastic simulations can be a way to get at the "physics" without presuming (much) of a model.
 -   the 95% confidence interval is a window within which, in theory, 90% of data should reside. The likelihood of finding a sample above the upper 95% level or below the lower 95% level should happen something near or below 5% of the time.
 

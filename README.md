@@ -4,6 +4,8 @@ Variable Importance Metric Science
 Why do it? (motivation)
 -----------------------
 
+The two most common Classification and Regression Tree based ensembles are the pure parallel (random forest) and pure serial (gradient boosted tree) ensembles.  A strong understanding of variable importance can inform better execution of variable selection.  It might also lead to more effective splitting, coupling, and aggregating approaches.
+
 I wanted to understand what the term "Variable Importance", from random forests means in a way that was more intuitive to me: "probability of contribution". I needed a framework to engage some relevant questions that I regularly ask myself.
 
 Questions:

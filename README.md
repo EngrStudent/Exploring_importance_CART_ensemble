@@ -42,8 +42,9 @@ How to start? (method)
 -   I know that the lower 95% binomial confidence interval for 300 of 300 samples is below 1%, so I will use this. There will be 300 samples of importance per value of rate. There will be 300 samples of x1, x2, x3, and y for each estimation of importance.
 -   For x2, if I substitute the value with "0" when I want it to not count in importance, then it will still be participating, so we have to replace its position in the sum with a different random value.
 -   I find 50 to 100 trees is often plenty, but random forests don't over-fit, so I'm going to also use 300 trees per forest.
+-   If there is a particular analytic form that fits the mean of the Importance it might point to how importance relates to spliltting and aggregation.
 
-Imo a forest should be defined a decent full-pack hiking distance for a human at around 20 miles per day squared, or 400 square miles or 5180 hectares. I combine that with [this](https://www.quora.com/How-many-trees-are-required-to-make-forest) which says each hectare should have no less than 100 trees, to suggest a "real" forest should have about 518000, or about half a million trees. I guess we are making random groves or random orchards, which I hope is not a contradiction of terms.
+Imo a forest should be defined as a decent, full-pack, hiking distance for a human at around 20 miles per day squared, or 400 square miles or 5180 hectares. I combine that with [this](https://www.quora.com/How-many-trees-are-required-to-make-forest) which says each hectare should have no less than 100 trees, to suggest a "real" forest should have about 518000, or about half a million trees. I guess we are making random groves or random orchards, which I hope is not a contradiction of terms.
 
 #### Therefore:
 

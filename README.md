@@ -163,6 +163,8 @@ lines(smooth.spline(rate,rate_store$UCL_x3,spar = 0.8), col="Red")
 grid()
 ```
 
+Image:
+ 
 
 Some observations can be made at this point about "cross-overs".  
 - When the upper control limit (UCL) of the varying importance variable starts being larger than the UCL of the zero-value variable, then I call it "initial emergence".  I think this is the first detection of non-zero importance. If I was trying to squeeze blood from a stone, I would look at the upper confidence levels, the right tails, to make a comparison.  

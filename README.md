@@ -163,7 +163,7 @@ lines(smooth.spline(rate,rate_store$UCL_x3,spar = 0.8), col="Red")
 grid()
 ```
 
-[Image:]https://github.com/EngrStudent/Exploring_importance_CART_ensemble_part1/blob/master/Rplot.png
+[Image:](https://github.com/EngrStudent/Exploring_importance_CART_ensemble_part1/blob/master/Rplot.png)
  
 
 Some observations can be made at this point about "cross-overs".  

@@ -154,7 +154,7 @@ lines(smooth.spline(rate,rate_store$LCL_x1,spar = 0.8), col="Green")
 lines(smooth.spline(rate,rate_store$UCL_x1,spar = 0.8), col="Green")
 
 points(rate_store$rate, rate_store$Med_x2, col="Blue", pch=19)
-lines(smooth.spline(rate,z-_store$LCL_x2,spar = 0.8), col="Blue")
+lines(smooth.spline(rate,rate_store$LCL_x2,spar = 0.8), col="Blue")
 lines(smooth.spline(rate,rate_store$UCL_x2,spar = 0.8), col="Blue")
 
 points(rate_store$rate, rate_store$Med_x3, col="Red",  pch=19)
